@@ -235,8 +235,8 @@ section {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  max-width: 700px; 
-  max-height: 700px; 
+  max-width: 650px; 
+  max-height: 650px; 
 }
 
 .cert-pic img {
@@ -297,4 +297,98 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* Adjust styles for screens up to 1200px width */
+  nav {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px width */
+  section {
+    margin: 0 2rem;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__pic-container {
+    height: 200px;
+    width: 200px;
+  }
+
+  .section__text {
+    text-align: center;
+  }
+
+  .details-container,
+  .about-pic {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .programs {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Adjust styles for screens up to 480px width */
+  nav {
+    font-size: 0.8em;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .links {
+    gap: 1rem;
+  }
+
+  .section__pic-container {
+    height: 150px;
+    width: 150px;
+  }
+
+  .section__text__p1 {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.5rem;
+  }
+
+  .details-container {
+    padding: 1rem;
+  }
+
+  .content-container {
+    font-size: 1rem;
+  }
+
+  .skills {
+    font-size: 2rem;
+  }
+
+  .programs {
+    font-size: 1rem;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
 }
