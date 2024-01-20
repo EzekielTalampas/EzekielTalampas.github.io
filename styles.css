@@ -235,8 +235,8 @@ section {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  max-width: 1000px; 
-  max-height: 500px; 
+  max-width: 700px; 
+  max-height: 700px; 
 }
 
 .cert-pic img {
